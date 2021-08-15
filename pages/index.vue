@@ -90,7 +90,7 @@ export default {
 }
 .github{
   padding-top:210px;
-  padding-left:160px;
+  padding-left:165px;
   width:50px;
   color:#f5f5f5;
 }
@@ -101,7 +101,7 @@ h1{
 ul{
   list-style:none;
   padding-top:90px;
-  padding-right:40px;
+  padding-right:30px;
   text-align:right;
 }
 li{
