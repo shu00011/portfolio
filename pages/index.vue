@@ -7,10 +7,10 @@
       </h1>
       <ul>
         <li>
-          <router-link class="nav-link" to="/profile">profile</router-link>
+          <router-link class="nav-link" to="/profile">PROFILE</router-link>
         </li>
         <li>
-          <router-link class="nav-link" to="/works">works</router-link>
+          <router-link class="nav-link" to="/works">WORKS</router-link>
         </li>
       </ul>
       <div class="github">
@@ -64,13 +64,11 @@ export default {
 .back{
   position:relative;
   background-color:#f5f5f5;
-  font-family:'Geo', sans-serif;
-  font-weight: lighter;
 }
 .menu{
   position:absolute;
   background-color:#2e8b57;
-  width:290px;
+  width:250px;
   height:640px;
   left:65px;
 }
@@ -79,15 +77,15 @@ export default {
   background-color:#000000;
   width:1174px;
   height:783px;
-  top:50px;
+  top:65px;
   left:210px;
   background-image:url(~static/my.png);
 }
 .title{
   font-size:40px;
   letter-spacing:2px;
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight:bold;
+  font-family: 'Geo', sans-serif;
+  font-weight:lighter;
   color:#fffaf0;
 }
 .github{
@@ -103,12 +101,12 @@ h1{
 ul{
   list-style:none;
   padding-top:90px;
-  padding-right:75px;
+  padding-right:40px;
   text-align:right;
 }
 li{
   padding:25px;
-  font-size:30px;
+  font-size:25px;
   font-family: 'Josefin Sans', sans-serif;
 }
 a{
