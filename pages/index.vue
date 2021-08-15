@@ -89,7 +89,7 @@ export default {
 }
 .github{
   padding-top:210px;
-  padding-left:125px;
+  padding-left:120px;
   width:50px;
   color:#f5f5f5;
 }
