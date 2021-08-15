@@ -70,7 +70,7 @@ export default {
 .menu{
   position:absolute;
   background-color:#2e8b57;
-  width:250px;
+  width:230px;
   height:640px;
   left:65px;
 }
@@ -79,18 +79,17 @@ export default {
   background-color:#000000;
   width:1174px;
   height:783px;
-  top:65px;
-  left:210px;
+  top:80px;
+  left:190px;
   background-image:url(~static/my.png);
 }
 .title{
   width:20px;
   height:20px;
-  padding-left:30px;
 }
 .github{
   padding-top:210px;
-  padding-left:165px;
+  padding-left:140px;
   width:50px;
   color:#f5f5f5;
 }
@@ -101,13 +100,14 @@ h1{
 ul{
   list-style:none;
   padding-top:170px;
-  padding-right:40px;
+  padding-right:55px;
   text-align:right;
 }
 li{
   padding:15px;
   font-size:25px;
   font-family: 'Josefin Sans', sans-serif;
+  font-weight:bold;
 }
 a{
   text-decoration:none;
