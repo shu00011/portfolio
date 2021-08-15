@@ -4,7 +4,7 @@
     <div class="menu">
       <router-link class="nav-link" to="/">
         <div class="title">
-          <img src="~static/logoS.png">
+          <img src="~static/logoN.png">
         </div>
       </router-link>
       <ul>
@@ -80,7 +80,7 @@ export default {
   width:1174px;
   height:783px;
   top:80px;
-  left:190px;
+  left:180px;
   background-image:url(~static/my.png);
 }
 .title{
@@ -89,7 +89,7 @@ export default {
 }
 .github{
   padding-top:210px;
-  padding-left:140px;
+  padding-left:125px;
   width:50px;
   color:#f5f5f5;
 }
@@ -100,14 +100,13 @@ h1{
 ul{
   list-style:none;
   padding-top:170px;
-  padding-right:55px;
+  padding-right:68px;
   text-align:right;
 }
 li{
   padding:15px;
   font-size:25px;
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight:bold;
+  font-family:'Geo', sans-serif;
 }
 a{
   text-decoration:none;
