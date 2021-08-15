@@ -2,9 +2,11 @@
 <!--  <Tutorial/>-->
   <div :style="{height:height+'px'}" class="back">
     <div class="menu">
-      <h1 class="title">
-        <router-link class="nav-link" to="/">shu00011</router-link>
-      </h1>
+      <router-link class="nav-link" to="/">
+        <div class="title">
+          <img src="~static/logoS.png">
+        </div>
+      </router-link>
       <ul>
         <li>
           <router-link class="nav-link" to="/profile">PROFILE</router-link>
@@ -82,11 +84,9 @@ export default {
   background-image:url(~static/my.png);
 }
 .title{
-  font-size:40px;
-  letter-spacing:2px;
-  font-family: 'Geo', sans-serif;
-  font-weight:lighter;
-  color:#fffaf0;
+  width:20px;
+  height:20px;
+  padding-left:30px;
 }
 .github{
   padding-top:210px;
@@ -100,12 +100,12 @@ h1{
 }
 ul{
   list-style:none;
-  padding-top:90px;
-  padding-right:30px;
+  padding-top:170px;
+  padding-right:40px;
   text-align:right;
 }
 li{
-  padding:25px;
+  padding:15px;
   font-size:25px;
   font-family: 'Josefin Sans', sans-serif;
 }
