@@ -1,10 +1,27 @@
 <template>
 <!--  <Tutorial/>-->
-  <div :style="{height:height+'px'}" class="backImage">
-    <div :style="{height:height+'px'}" class="absolute">
-      <Header/>
-      <p>{{title}}</p>
-      <hello-world message='This is a message.'/>
+  <div :style="{height:height+'px'}" class="back">
+    <div class="menu">
+      <h1 class="title">
+        <router-link class="nav-link" to="/">shu00011</router-link>
+      </h1>
+      <ul>
+        <li>
+          <router-link class="nav-link" to="/profile">profile</router-link>
+        </li>
+        <li>
+          <router-link class="nav-link" to="/works">works</router-link>
+        </li>
+      </ul>
+      <div class="github">
+        <a href="https://github.com/shu00011">
+          <i class="fab fa-github-square fa-2x">
+          </i>
+        </a>
+      </div>
+      <div class="image">
+
+      </div>
     </div>
   </div>
 </template>
@@ -38,24 +55,74 @@ export default {
   components:{
     Header,
     HelloWorld
-  }
+  },
 }
 </script>
 
 <style>
-.backImage{
-  /*background-image:radial-gradient(ellipse at center,rgba(189,195,199,0.1) 50%, rgba(44,62,80,0.5) 100%), url(~static/monoF.jpg);*/
-  /*background-image:radial-gradient(ellipse at center,rgba(189,195,199,0.1) 50%, rgba(44,62,80,0.5) 100%), url(~static/ship.jpg);*/
-  /*background-image:rgba(245,245,245,0.1),url(~static/shipLY.jpg);*/
-  background-image:url(~static/shipLY.jpg);
-  background-size:1800px;
+@import url('https://fonts.googleapis.com/css2?family=Geo&display&family=Josefin+Sans:ital,wght@1,200&display=swap');
+.back{
   position:relative;
+  background-color:#f5f5f5;
+  font-family:'Geo', sans-serif;
+  font-weight: lighter;
 }
-.absolute{
+.menu{
   position:absolute;
-  background-color:rgba(245,245,245,0.3);
-  width:100%;
-  /*width:1450px;*/
-  /*height:750px;*/
+  background-color:#2e8b57;
+  width:290px;
+  height:640px;
+  left:65px;
+}
+.image{
+  position:absolute;
+  background-color:#000000;
+  width:1174px;
+  height:783px;
+  top:50px;
+  left:210px;
+  background-image:url(~static/my.png);
+}
+.title{
+  font-size:40px;
+  letter-spacing:2px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight:bold;
+  color:#fffaf0;
+}
+.github{
+  padding-top:210px;
+  padding-left:160px;
+  width:50px;
+  color:#f5f5f5;
+}
+h1{
+  padding-left:30px;
+  font-weight:lighter;
+}
+ul{
+  list-style:none;
+  padding-top:90px;
+  padding-right:75px;
+  text-align:right;
+}
+li{
+  padding:25px;
+  font-size:30px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+a{
+  text-decoration:none;
+  color:#f5f5f5;
+}
+h1:hover{
+  opacity:0.8;
+}
+li:hover{
+  letter-spacing:5px;
+  opacity:0.8;
+}
+.github:hover{
+  opacity:0.8;
 }
 </style>
