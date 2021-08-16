@@ -5,7 +5,7 @@
       <div class="discordbot">
         <div class="title">
           <a href="https://github.com/shu00011/Shisaku_discord_bot">
-            <h1>Shisaku_bot</h1>
+            <h1>試作bot</h1>
           </a>
         </div>
         <hr>
@@ -25,7 +25,7 @@
             </tr>
             <tr>
               <th>説明：</th>
-              <th>Pythonを使って動くものを作ってみたくなり，Discordbotを制作しました．画像は実装した機能です．</th>
+              <th>Pythonを使って動くものを作ってみたくなり，Discord botを制作しました．画像は実装した機能です．</th>
             </tr>
           </table>
         </div>
