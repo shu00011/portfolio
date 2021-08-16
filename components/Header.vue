@@ -2,16 +2,18 @@
   <header>
     <div class="header_flex">
   <!-- データを表示させる-->
-        <h1>
-          <router-link class="nav-link topIcon hoverDesign" to="/">{{title}}</router-link>
-        </h1>
+        <div class="title">
+          <router-link class="nav-link topIcon hoverDesign" to="/">
+            <img src="~static/logoNSM.png">
+          </router-link>
+        </div>
       <nav>
         <ul>
           <li>
-            <router-link class="nav-link menu hoverDesign" to="/profile">profile</router-link>
+            <router-link class="nav-link menu hoverDesign" to="/profile">PROFILE</router-link>
           </li>
           <li>
-            <router-link class="nav-link menu hoverDesign" to="/works">works</router-link>
+            <router-link class="nav-link menu hoverDesign" to="/works">WORKS</router-link>
           </li>
         </ul>
       </nav>
@@ -35,22 +37,19 @@ export default {
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Geo&display=swap');
   header{
-    background-color: rgba(245,245,245,0);
+    background-color: rgba(245,245,245,0.1);
     text-align:center;
     padding:10px;
     font-family:'Geo', sans-serif;
     font-weight: lighter;
   }
-  h1{
-    margin:0;
-    font-family:'Geo', sans-serif;
-    font-weight: lighter;
-  }
-  .topIcon{
-    color:#a9a9a9;
+  .title{
+    top:0;
+    left:0;
+    position:absolute;
   }
   .menu{
-    color:#f5f5f5;
+    color:#44a49c;
   }
   .hoverDesign:hover{
     /* font-size:98%; */
@@ -63,6 +62,7 @@ export default {
   }
   a{
     text-decoration:none;
+    font-size:20px;
   }
   ul{
     list-style:none;
@@ -72,11 +72,12 @@ export default {
   }
   .header_flex{
     display:flex;
-    height:60px;
+    height:90px;
     align-items:center;
+    position:relative;
   }
   .header_flex nav{
-    margin-left:auto;
+   margin-left:60px;
   }
   .header_flex ul{
     display:flex;
