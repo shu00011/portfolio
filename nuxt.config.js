@@ -13,7 +13,7 @@ export default {
       { rel: "stylesheet", href:"https://use.fontawesome.com/releases/v5.6.1/css/all.css"}
     ]
   },
-
+  target:'static',
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
   ],
