@@ -18,7 +18,6 @@ export default {
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Geo&family=Josefin+Sans:ital,wght@1,200&display=swap');
 .image{
   position:absolute;
   background-color:#000000;

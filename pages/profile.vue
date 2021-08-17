@@ -55,7 +55,6 @@ export default {
 </script>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho&family=Geo&display=swap');
 .image{
   position:absolute;
   background-color:#000000;

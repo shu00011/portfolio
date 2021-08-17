@@ -55,7 +55,6 @@ export default {
 </script>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho&family=Geo&display=swap');
 .back{
   font-family: 'Shippori Mincho', serif;
   position:relative;

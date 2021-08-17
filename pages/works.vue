@@ -81,7 +81,6 @@ export default {
 </script>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho&family=Geo&display=swap');
 .all{
   position:relative;
   background-color:#f5f5f5;
