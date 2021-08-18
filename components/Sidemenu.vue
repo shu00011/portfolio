@@ -18,7 +18,7 @@
         </li>
       </ul>
       <div class="github">
-        <a href="https://github.com/shu00011">
+        <a href="https://github.com/shu00011" target="_blank" rel="noopener noreferrer">
           <i class="fab fa-github-square fa-2x">
           </i>
         </a>

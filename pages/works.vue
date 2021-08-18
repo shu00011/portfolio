@@ -35,7 +35,7 @@
       </div>
       <div class="cacao">
         <div class="title">
-          <a href="https://apps.apple.com/jp/app/cacao/id1577030127">
+          <a href="https://apps.apple.com/jp/app/cacao/id1577030127" target="_blank" rel="noopener noreferrer">
             <h1>cacao</h1>
           </a>
         </div>

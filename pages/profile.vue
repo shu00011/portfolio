@@ -35,7 +35,7 @@
               <router-link class="nav-link" to="/works">
                 <div class="skill toHover">Flutter</div>
               </router-link>
-              <a href="https://github.com/shu00011"><div class="skill toHover">Git</div></a>
+              <a href="https://github.com/shu00011" target="_blank" rel="noopener noreferrer"><div class="skill toHover">Git</div></a>
             </div>
           </th>
         </tr>
