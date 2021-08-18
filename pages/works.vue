@@ -2,6 +2,20 @@
   <div class="all">
     <Sidemenu/>
     <div class="contents">
+      <div class="menu">
+        <h1>works</h1>
+        <hr>
+        <table>
+          <tr>
+            <th>試作bot：</th>
+            <th>Python</th>
+          </tr>
+          <tr>
+            <th>cacao：</th>
+            <th>Flutter</th>
+          </tr>
+        </table>
+      </div>
       <div class="discordbot">
         <div class="title">
           <a href="https://github.com/shu00011/Shisaku_discord_bot" target="_blank" rel="noopener noreferrer">
@@ -95,6 +109,9 @@ export default {
 .title{
   font-family:'Geo', sans-serif;
 }
+.discordbot{
+  padding-top:20px;
+}
 .botImage{
   padding-top:10px;
 }
@@ -116,5 +133,9 @@ th{
   font-weight:lighter;
   text-align:left;
   font-family: 'Shippori Mincho', serif;
+}
+h1{
+  font-family:'Geo', sans-serif;
+  color:#2f2f2f;
 }
 </style>
