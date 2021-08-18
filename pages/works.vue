@@ -4,7 +4,7 @@
     <div class="contents">
       <div class="discordbot">
         <div class="title">
-          <a href="https://github.com/shu00011/Shisaku_discord_bot">
+          <a href="https://github.com/shu00011/Shisaku_discord_bot" target="_blank" rel="noopener noreferrer">
             <h1>試作bot</h1>
           </a>
         </div>
