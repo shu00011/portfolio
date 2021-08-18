@@ -25,7 +25,7 @@ export default {
   height:783px;
   top:80px;
   left:245px;
-  background-image:url(~static/my.png);
+  background-image:url('~/assets/my.png');
 }
 h1{
   padding-left:30px;

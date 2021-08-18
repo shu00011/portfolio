@@ -3,7 +3,7 @@
     <div class="menu">
       <router-link class="nav-link" to="/">
         <div class="title">
-          <img src="~static/logoN.png">
+          <img src="~/assets/logoN.png" alt="ロゴ"/>
         </div>
       </router-link>
       <ul>

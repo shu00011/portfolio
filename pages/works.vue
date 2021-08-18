@@ -44,7 +44,7 @@
           </table>
         </div>
         <div class="botImage">
-          <img src="~/static/help_b.png">
+          <img src="~/assets/help_b.png"  alt="Discord botで実装した機能一覧" />
         </div>
       </div>
       <div class="cacao">
@@ -75,7 +75,7 @@
           </table>
         </div>
         <div class="cacaoImage">
-          <img src="~/static/cacao.png">
+          <img src="~/assets/cacao.PNG"  alt="cacaoで担当したUIの制作画面"/>
         </div>
       </div>
     </div>
@@ -83,7 +83,6 @@
 </template>
 
 <script>
-import Sidemenu from "~/components/Sidemenu";
 export default {
   data: function () {
     return {

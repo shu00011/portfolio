@@ -62,7 +62,7 @@ export default {
   height:783px;
   top:80px;
   left:245px;
-  background-image:url(~static/my.png);
+  background-image:url('~assets/my.png');
 }
 .content{
   font-family: 'Shippori Mincho', serif;
