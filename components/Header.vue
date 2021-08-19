@@ -62,7 +62,7 @@ export default {
 .github {
   color: #f5f5f5;
   position: absolute;
-  left: 250px;
+  left: 290px;
 }
 
 p {
@@ -92,7 +92,7 @@ div {
 }
 
 .header_flex nav {
-  margin-left: 120px;
+  margin-left: 140px;
 }
 
 .header_flex ul {
@@ -100,6 +100,6 @@ div {
 }
 
 .header_flex ul li {
-  margin-left: 8px;
+  margin-left: 15px;
 }
 </style>

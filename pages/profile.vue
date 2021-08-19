@@ -94,7 +94,7 @@ export default {
   font-family: 'Shippori Mincho', serif;
   position: absolute;
   top: 150px;
-  left: 30px;
+  left: 50px;
   text-align: center;
   color: #f5f5f5;
   background-color: rgba(46, 139, 87, 0.7);
