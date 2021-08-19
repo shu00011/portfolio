@@ -2,17 +2,17 @@
   <div class="back header_flex visible sm:invisible">
     <!-- データを表示させる-->
     <div class="title">
-      <router-link class="nav-link topIcon hoverDesign" to="/">
+      <router-link class="nav-link topIcon" to="/">
         <img src="~static/logoNSM.png" alt="header用のロゴ"/>
       </router-link>
     </div>
     <nav>
       <ul>
         <li>
-          <router-link class="nav-link menu hoverDesign" to="/profile">PROFILE</router-link>
+          <router-link class="nav-link menu" to="/profile">PROFILE</router-link>
         </li>
         <li>
-          <router-link class="nav-link menu hoverDesign" to="/works">WORKS</router-link>
+          <router-link class="nav-link menu" to="/works">WORKS</router-link>
         </li>
         <li>
           <div class="github">
@@ -63,12 +63,6 @@ export default {
   color: #f5f5f5;
   position: absolute;
   left: 250px;
-}
-
-.hoverDesign:hover {
-  /* font-size:98%; */
-  letter-spacing: 5px;
-  opacity: 0.8;
 }
 
 p {

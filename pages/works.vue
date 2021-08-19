@@ -116,6 +116,7 @@ export default {
   top: 110px;
   position: absolute;
   color: #f5f5f5;
+  padding: 40px 30px 0 30px;
 }
 
 .image {
@@ -167,7 +168,7 @@ th {
   }
 
   .image {
-    width: 1250px;
+    width: 1174px;
     height: 1835px;
     top: 80px;
     left: 245px;
