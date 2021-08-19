@@ -1,7 +1,13 @@
 <template>
   <div class="all">
-    <Sidemenu/>
-    <div class="contents">
+    <div class="side">
+      <Sidemenu/>
+      <div class="image"></div>
+    </div>
+    <div class="head">
+      <Header/>
+    </div>
+    <div class="workscontents">
       <div class="menu">
         <h1>works</h1>
         <hr>
@@ -44,7 +50,7 @@
           </table>
         </div>
         <div class="botImage">
-          <img src="~/assets/help_b.png"  alt="Discord botで実装した機能一覧" />
+          <img src="~/assets/help_b.png" alt="Discord botで実装した機能一覧"/>
         </div>
       </div>
       <div class="cacao">
@@ -75,7 +81,7 @@
           </table>
         </div>
         <div class="cacaoImage">
-          <img src="~/assets/cacao.PNG"  alt="cacaoで担当したUIの制作画面"/>
+          <img src="~/assets/cacao.PNG" alt="cacaoで担当したUIの制作画面"/>
         </div>
       </div>
     </div>
@@ -94,47 +100,98 @@ export default {
 </script>
 
 <style scoped>
-.all{
-  position:relative;
-  background-color:#f5f5f5;
-  height:1850px;
-  width:1450px;
+.all {
+  position: relative;
 }
-.contents{
-  position:absolute;
-  top:10px;
-  left:320px;
+
+.side {
+  position: absolute;
 }
-.title{
-  font-family:'Geo', sans-serif;
+
+.head {
+  position: absolute;
 }
-.discordbot{
-  padding-top:20px;
+
+.workscontents {
+  top: 110px;
+  position: absolute;
+  color: #f5f5f5;
 }
-.botImage{
-  padding-top:10px;
+
+.image {
+  position: absolute;
+  width: 840px;
+  height: 1300px;
+  top: 0;
+  left: -200px;
+  background-image: url('~/assets/my.png');
 }
-.cacao{
-  padding-top:20px;
+
+.title {
+  font-family: 'Geo', sans-serif;
 }
-.cacaoImage{
-  padding:10px;
+
+.discordbot {
+  padding-top: 20px;
 }
-.title:hover{
-  opacity:0.8;
-  letter-spacing:5px;
+
+.botImage {
+  padding-top: 10px;
 }
-a{
-  text-decoration:none;
-  color:#2f2f2f;
+
+.cacao {
+  padding-top: 20px;
 }
-th{
-  font-weight:lighter;
-  text-align:left;
+
+.cacaoImage {
+  padding: 10px;
+}
+
+h1 {
+  font-family: 'Geo', sans-serif;
+  color: #f5f5f5;
+  font-size: 30px;
+}
+
+th {
+  font-weight: lighter;
+  text-align: left;
   font-family: 'Shippori Mincho', serif;
 }
-h1{
-  font-family:'Geo', sans-serif;
-  color:#2f2f2f;
+
+@media (min-width: 640px) {
+  .all {
+    background-color: #f5f5f5;
+    height: 2000px;
+    width: 1450px;
+  }
+
+  .image {
+    width: 1250px;
+    height: 1835px;
+    top: 80px;
+    left: 245px;
+  }
+
+  .workscontents {
+    top: 100px;
+    left: 320px;
+  }
+
+  .title:hover {
+    opacity: 0.8;
+    letter-spacing: 5px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #2f2f2f;
+  }
+
+  th {
+    font-weight: lighter;
+    text-align: left;
+    font-family: 'Shippori Mincho', serif;
+  }
 }
 </style>

@@ -1,16 +1,13 @@
 <template>
-  <div :style="{height:height+'px'}" class="back">
+  <div :style="{height:height+'px'}" class="back invisible sm:visible">
     <div class="menu">
       <router-link class="nav-link" to="/">
-        <div class="title">
+        <div class="toTitle">
           <img src="~/assets/logoN.png" alt="ロゴ"/>
         </div>
       </router-link>
       <ul>
         <li>
-          <!--<div class="container">
-            <ModalProfile v-on:componentAlert="Alert" />
-          </div>-->
           <router-link class="nav-link" to="/profile">PROFILE</router-link>
         </li>
         <li>
@@ -55,52 +52,61 @@ export default {
 </script>
 
 <style scoped>
-.back{
+.back {
   font-family: 'Shippori Mincho', serif;
-  position:relative;
-  background-color:#f5f5f5;
+  position: relative;
+  background-color: #f5f5f5;
 }
 
-.menu{
-  position:absolute;
-  background-color:#2e8b57;
-  width:230px;
-  height:640px;
-  left:65px;
+.menu {
+  position: absolute;
+  background-color: #2e8b57;
+  width: 230px;
+  height: 640px;
+  left: 65px;
 }
-.title{
-  width:20px;
-  height:20px;
+
+.toTitle {
+  width: 200px;
+  height: 20px;
 }
-.github{
-  padding-top:210px;
-  padding-left:120px;
-  width:50px;
-  color:#f5f5f5;
+
+.github {
+  padding-top: 210px;
+  padding-left: 120px;
+  width: 50px;
+  color: #f5f5f5;
 }
-ul{
-  list-style:none;
-  padding-top:170px;
-  padding-right:68px;
-  text-align:right;
+
+ul {
+  list-style: none;
+  padding-top: 170px;
+  padding-right: 68px;
+  text-align: right;
 }
-li{
-  padding:15px;
-  font-size:25px;
-  font-family:'Geo', sans-serif;
+
+li {
+  padding: 15px;
+  font-size: 25px;
+  font-family: 'Geo', sans-serif;
 }
-a{
-  text-decoration:none;
-  color:#f5f5f5;
+
+a {
+  text-decoration: none;
+  color: #f5f5f5;
 }
-h1:hover{
-  opacity:0.8;
+
+h1:hover {
+  opacity: 0.8;
 }
-li:hover{
-  letter-spacing:5px;
-  opacity:0.8;
+
+li:hover {
+  letter-spacing: 5px;
+  opacity: 0.8;
 }
-.github:hover{
-  opacity:0.8;
+
+.github:hover {
+  opacity: 0.8;
 }
+
 </style>

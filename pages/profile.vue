@@ -1,7 +1,12 @@
 <template>
-  <div>
-    <Sidemenu/>
-    <div class="image"></div>
+  <div class="back">
+    <div class="side">
+      <Sidemenu/>
+      <div class="image"></div>
+    </div>
+    <div class="head">
+      <Header/>
+    </div>
     <div class="content">
       <table>
         <tr>
@@ -35,7 +40,9 @@
               <router-link class="nav-link" to="/works">
                 <div class="skill toHover">Flutter</div>
               </router-link>
-              <a href="https://github.com/shu00011" target="_blank" rel="noopener noreferrer"><div class="skill toHover">Git</div></a>
+              <a href="https://github.com/shu00011" target="_blank" rel="noopener noreferrer">
+                <div class="skill toHover">Git</div>
+              </a>
             </div>
           </th>
         </tr>
@@ -55,68 +62,115 @@ export default {
 </script>
 
 <style scoped>
-.image{
-  position:absolute;
-  background-color:#000000;
-  width:1174px;
-  height:783px;
-  top:80px;
-  left:245px;
-  background-image:url('~assets/my.png');
+.back {
+  position: relative;
 }
-.content{
+
+.head {
+  position: absolute;
+  width: 100%;
+}
+
+.content {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+.side {
+  position: absolute;
+}
+
+.image {
+  position: absolute;
+  width: 840px;
+  height: 783px;
+  top: 0;
+  left: -200px;
+  background-image: url('~/assets/my.png');
+}
+
+.content {
   font-family: 'Shippori Mincho', serif;
-  position:absolute;
-  top:180px;
-  left:350px;
-  text-align:center;
-  color:#f5f5f5;
-  background-color:rgba(46,139,87,0.7);
+  position: absolute;
+  top: 150px;
+  left: 30px;
+  text-align: center;
+  color: #f5f5f5;
+  background-color: rgba(46, 139, 87, 0.7);
 }
-.skills{
-  font-family:'Geo', sans-serif;
-  font-size:15px;
-  color:#f5f5f5;
-  margin:10px;
-  display:flex;
+
+.skills {
+  font-family: 'Geo', sans-serif;
+  font-size: 20px;
+  color: #f5f5f5;
+  margin: 10px;
 }
-.skill{
-  width:80px;
-  border-radius:5px;
-  padding:3px;
+
+th {
+  font-weight: lighter;
 }
-th{
-  font-weight:lighter;
-  text-align:left;
-}
-a{
-  text-decoration:none;
-  color:#f5f5f5;
-}
-.toHover:hover{
-  opacity:0.5;
-  letter-spacing:5px;
-}
-ul{
-  list-style:none;
-  padding-top:170px;
-  padding-right:68px;
-  text-align:right;
-}
-li{
-  padding:15px;
-  font-size:25px;
-  font-family:'Geo', sans-serif;
-}
-a{
-  text-decoration:none;
-  color:#f5f5f5;
-}
-h1:hover{
-  opacity:0.8;
-}
-li:hover{
-  letter-spacing:5px;
-  opacity:0.8;
+
+@media (min-width: 640px) {
+  .image {
+    width: 1174px;
+    top: 80px;
+    left: 245px;
+  }
+
+  .content {
+    left: 350px;
+  }
+
+  .skills {
+    font-size: 15px;
+    display: flex;
+  }
+
+  .skill {
+    width: 80px;
+    padding: 3px;
+  }
+
+  th {
+    text-align: left;
+  }
+
+  a {
+    text-decoration: none;
+    color: #f5f5f5;
+  }
+
+  .toHover:hover {
+    opacity: 0.5;
+    letter-spacing: 5px;
+  }
+
+  ul {
+    list-style: none;
+    padding-top: 170px;
+    padding-right: 68px;
+    text-align: right;
+  }
+
+  li {
+    padding: 15px;
+    font-size: 25px;
+    font-family: 'Geo', sans-serif;
+  }
+
+  a {
+    text-decoration: none;
+    color: #f5f5f5;
+  }
+
+  h1:hover {
+    opacity: 0.8;
+  }
+
+  li:hover {
+    letter-spacing: 5px;
+    opacity: 0.8;
+  }
 }
 </style>
