@@ -3,7 +3,7 @@
     <!-- データを表示させる-->
     <div class="title">
       <router-link class="nav-link topIcon" to="/">
-        <img src="~static/logoNSM.png" alt="header用のロゴ"/>
+        <img src="~assets/logoNSM.png" alt="header用のロゴ"/>
       </router-link>
     </div>
     <nav>

@@ -11,7 +11,7 @@
       <table>
         <tr>
           <th>名前：</th>
-          <th>shu00011（しゅう）</th>
+          <th>shu00011<div class="toHover"><a href="https://oucrc.net/members/9svd4hgoy" target="_blank" rel="noopener noreferrer">小石こは(電子計算機研究会)</a></div></th>
         </tr>
         <tr>
           <th>所属：</th>
@@ -30,7 +30,9 @@
               <div class="skill">JavaScript</div>
               <div class="skill">Node.js</div>
               <div class="skill">Vue.js</div>
-              <div class="skill">Nuxt.js</div>
+              <a href="https://oucrc.net/articles/5epogqmu2lk" target="_blank" rel="noopener noreferrer">
+                <div class="skill toHover">Nuxt.js</div>
+              </a>
             </div>
             <div class="skills">
               <div class="skill">C</div>
@@ -98,6 +100,14 @@ export default {
   text-align: center;
   color: #f5f5f5;
   background-color: rgba(46, 139, 87, 0.7);
+}
+
+.toHover{
+  color: #00cde1;
+}
+
+.toHover a{
+  color: #00cde1;
 }
 
 .skills {

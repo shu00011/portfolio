@@ -53,7 +53,6 @@ export default {
 
 <style scoped>
 .back {
-  font-family: 'Shippori Mincho', serif;
   position: relative;
   background-color: #f5f5f5;
 }
