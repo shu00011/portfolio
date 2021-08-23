@@ -4,7 +4,7 @@
       <Sidemenu/>
       <div class="image"></div>
     </div>
-    <div class="head">
+    <div class="head visible sm:invisible">
       <Header/>
     </div>
     <div class="workscontents">
@@ -13,7 +13,7 @@
         <hr>
         <table>
           <tr>
-            <th>twitter_timeline_media: </th>
+            <th>twitter_timeline_media:</th>
             <th>Python</th>
           </tr>
           <tr>
@@ -49,7 +49,9 @@
             </tr>
             <tr>
               <th>説明：</th>
-              <th>twitterのタイムライン上にある最新の画像を，streamlitを使用しローカルweb上で表示します．詳しいことはこちらの<a href="https://oucrc.net/articles/okp0bbco4s" target="_blank" rel="noopener noreferrer">記事</a>にあります．</th>
+              <th>twitterのタイムライン上にある最新の画像を，streamlitを使用しローカルweb上で表示します．詳しいことはこちらの<a
+                href="https://oucrc.net/articles/okp0bbco4s" target="_blank" rel="noopener noreferrer">記事</a>にあります．
+              </th>
             </tr>
           </table>
         </div>
@@ -134,6 +136,7 @@ export default {
 <style scoped>
 .all {
   position: relative;
+
 }
 
 .side {
@@ -142,6 +145,7 @@ export default {
 
 .head {
   position: absolute;
+  background-color: rgba(67, 164, 186, 0.7);
 }
 
 .workscontents {
@@ -149,6 +153,7 @@ export default {
   position: absolute;
   color: #f5f5f5;
   padding: 40px 30px 0 30px;
+  background-color: #2B9999;
 }
 
 .image {
@@ -156,15 +161,15 @@ export default {
   width: 840px;
   top: 0;
   left: -200px;
-  background-image: url('~/assets/my.png');
+  /*background-image: url('~/assets/my.png');*/
 }
 
 .title {
   font-family: 'Geo', sans-serif;
 }
 
-.twitter{
-  padding-top:20px;
+.twitter {
+  padding-top: 20px;
 }
 
 .discordbot {
@@ -195,7 +200,7 @@ th {
   font-family: 'Shippori Mincho', serif;
 }
 
-.sentence a{
+.sentence a {
   color: #00cde1;
 }
 
@@ -223,9 +228,9 @@ th {
     letter-spacing: 5px;
   }
 
-  .sentence a:hover{
-    opacity:0.8;
-    letter-spacing:5px;
+  .sentence a:hover {
+    opacity: 0.8;
+    letter-spacing: 5px;
   }
 
   a {
