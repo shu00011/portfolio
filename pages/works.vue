@@ -13,6 +13,10 @@
         <hr>
         <table>
           <tr>
+            <th>twitter_timeline_media: </th>
+            <th>Python</th>
+          </tr>
+          <tr>
             <th>試作bot：</th>
             <th>Python</th>
           </tr>
@@ -21,6 +25,34 @@
             <th>Flutter</th>
           </tr>
         </table>
+      </div>
+      <div class="twitter">
+        <div class="title">
+          <a href="https://github.com/shu00011/twitter_timeline_media" target="_blank" rel="noopener noreferrer">
+            <h1>twitter_timeline_media</h1>
+          </a>
+        </div>
+        <hr>
+        <div class="sentence">
+          <table>
+            <tr>
+              <th>名前：</th>
+              <th>twitter_timeline_media</th>
+            </tr>
+            <tr>
+              <th>開発：</th>
+              <th>個人開発</th>
+            </tr>
+            <tr>
+              <th>技術：</th>
+              <th>Python</th>
+            </tr>
+            <tr>
+              <th>説明：</th>
+              <th>twitterのタイムライン上にある最新の画像を，streamlitを使用しローカルweb上で表示します．詳しいことはこちらの<a href="https://oucrc.net/articles/okp0bbco4s" target="_blank" rel="noopener noreferrer">記事</a>にあります．</th>
+            </tr>
+          </table>
+        </div>
       </div>
       <div class="discordbot">
         <div class="title">
@@ -122,7 +154,6 @@ export default {
 .image {
   position: absolute;
   width: 840px;
-  height: 1300px;
   top: 0;
   left: -200px;
   background-image: url('~/assets/my.png');
@@ -130,6 +161,10 @@ export default {
 
 .title {
   font-family: 'Geo', sans-serif;
+}
+
+.twitter{
+  padding-top:20px;
 }
 
 .discordbot {
@@ -160,6 +195,10 @@ th {
   font-family: 'Shippori Mincho', serif;
 }
 
+.sentence a{
+  color: #00cde1;
+}
+
 @media (min-width: 640px) {
   .all {
     background-color: #f5f5f5;
@@ -182,6 +221,11 @@ th {
   .title:hover {
     opacity: 0.8;
     letter-spacing: 5px;
+  }
+
+  .sentence a:hover{
+    opacity:0.8;
+    letter-spacing:5px;
   }
 
   a {
