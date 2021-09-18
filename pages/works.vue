@@ -2,7 +2,6 @@
   <div class="all">
     <div class="side">
       <Sidemenu/>
-      <div class="image"></div>
     </div>
     <div class="head visible sm:invisible">
       <Header/>
@@ -136,17 +135,14 @@ export default {
 <style scoped>
 .all {
   position: relative;
-
+  width:100%;
 }
 
 .side {
   position: absolute;
 }
 
-.head {
-  position: absolute;
-  background-color: rgba(67, 164, 186, 0.7);
-}
+
 
 .workscontents {
   top: 110px;
@@ -154,14 +150,7 @@ export default {
   color: #f5f5f5;
   padding: 40px 30px 0 30px;
   background-color: #2B9999;
-}
-
-.image {
-  position: absolute;
-  width: 840px;
-  top: 0;
-  left: -200px;
-  /*background-image: url('~/assets/my.png');*/
+  max-width:100%;
 }
 
 .title {
@@ -208,14 +197,7 @@ th {
   .all {
     background-color: #f5f5f5;
     height: 2000px;
-    width: 1450px;
-  }
-
-  .image {
-    width: 1174px;
-    height: 1835px;
-    top: 80px;
-    left: 245px;
+    width: 100%;
   }
 
   .workscontents {

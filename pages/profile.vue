@@ -66,11 +66,12 @@ export default {
 <style scoped>
 .back {
   position: relative;
+  width:100%;
 }
 
 .head {
   position: absolute;
-  width: 100%;
+  width:100%;
 }
 
 .content {
@@ -83,20 +84,11 @@ export default {
   position: absolute;
 }
 
-.image {
-  position: absolute;
-  width: 840px;
-  height: 783px;
-  top: 0;
-  left: -200px;
-  background-image: url('~/assets/my.png');
-}
-
 .content {
   font-family: 'Shippori Mincho', serif;
   position: absolute;
   top: 150px;
-  left: 50px;
+  left: 30px;
   text-align: center;
   color: #f5f5f5;
   background-color: rgba(46, 139, 87, 0.7);
@@ -123,6 +115,9 @@ th {
 
 @media (min-width: 640px) {
   .image {
+    position: absolute;
+    height: 783px;
+    background-image: url('~/assets/my.png');
     width: 1174px;
     top: 80px;
     left: 245px;

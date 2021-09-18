@@ -42,11 +42,12 @@ export default {
 
 <style scoped>
 .back {
-  background-color: rgba(245, 245, 245, 0.1);
+  background-color: rgba(43, 153, 153, 0.6);
   text-align: center;
   padding: 10px;
   font-family: 'Geo', sans-serif;
   font-weight: lighter;
+  width:100%;
 }
 
 .title {
@@ -56,13 +57,13 @@ export default {
 }
 
 .menu {
-  color: #44a49c;
+  color: #f5f5f5;
 }
 
 .github {
   color: #f5f5f5;
   position: absolute;
-  left: 270px;
+  left: 245px;
 }
 
 p {
@@ -86,13 +87,13 @@ div {
 .header_flex {
   display: flex;
   height: 100px;
-  width: 640px;
+  width: 100%;/*640px;*/
   align-items: center;
   position: relative;
 }
 
 .header_flex nav {
-  margin-left: 140px;
+  margin-left: 120px;
 }
 
 .header_flex ul {

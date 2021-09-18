@@ -8,6 +8,9 @@
     <div class="head">
       <Header/>
     </div>
+    <div class="phone">
+        <h1>shu00011 portfolio</h1>
+    </div>
   </div>
 </template>
 
@@ -24,7 +27,8 @@ export default {
 <style>
 .back {
   position: relative;
-  background-color: #f5f5f5;
+  background-color:#f5f5f5;
+  width:100%;
 }
 
 .side {
@@ -33,22 +37,33 @@ export default {
 
 .head {
   position: absolute;
+  width:100%;
 }
 
-.image {
-  position: absolute;
-  width: 840px;
-  height: 783px;
-  top: 0;
-  left: -200px;
-  background-image: url('~/assets/my.png');
+.phone{
+  position:absolute;
+  top:200px;
+  left:100px;
+  font-family: 'Shippori Mincho', serif;
+  color:#a9a9a9;
 }
 
 @media (min-width: 640px) {
+
   .image {
+    position: absolute;
+    height: 783px;
+    background-image: url('~/assets/my.png');
     width: 1174px;
     top: 80px;
     left: 245px;
+  }
+
+  .phone{
+    color:rgba(245,245,245,0);
+    top:0;
+    left:500px;
+    cursor: default;
   }
 
   h1 {
