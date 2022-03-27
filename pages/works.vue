@@ -25,7 +25,7 @@
           <p class="mb-2">開発：個人開発</p>
           <p class="mb-2">技術：Nuxt.js</p>
           <p class="mb-2">説明：本Webサイトを構築．</p>
-          <a class="border-2 border-gray-600 bg-white text-gray-600 text-xs py-2 px-4 w-40 h-38 rounded-full tracking-widest hover:bg-gray-600 hover:text-white" href="https://oucrc.net/articles/5epogqmu2lk" target="_blank" rel="noopener noreferrer">oucrcの記事はこちら</a>
+          <a class="border-2 border-gray-600 bg-white text-gray-600 text-xs py-2 px-4 w-40 h-38 rounded-full tracking-widest hover:bg-gray-600 hover:text-white" href="https://zenn.dev/shu00011/articles/0e5937ca1ff85b" target="_blank" rel="noopener noreferrer">Zennの記事はこちら</a>
         </div>
         <div class="rounded-lg border-2 border-gray-600 mb-10 p-10 pb-15">
           <img src="~/assets/twitter.png" alt="twitter_timeline_mdeia" class="rounded-t-lg" />
@@ -34,7 +34,7 @@
           <p class="mb-2">開発：個人開発</p>
           <p class="mb-2">技術：Python</p>
           <p class="mb-2">説明：twitterのタイムライン上にある最新の画像を，ローカルホスト上でstreanlitを使用して表示．</p>
-          <a class="border-2 border-gray-600 bg-white text-gray-600 text-xs py-2 px-4 w-40 h-38 rounded-full tracking-widest hover:bg-gray-600 hover:text-white" href="https://oucrc.net/articles/okp0bbco4s" target="_blank" rel="noopener noreferrer">oucrcの記事はこちら</a>
+          <a class="border-2 border-gray-600 bg-white text-gray-600 text-xs py-2 px-4 w-40 h-38 rounded-full tracking-widest hover:bg-gray-600 hover:text-white" href="https://zenn.dev/shu00011/articles/9392ef6aa56c7f" target="_blank" rel="noopener noreferrer">Zennの記事はこちら</a>
         </div>
         <div class="rounded-lg border-2 border-gray-600 mb-10 p-10 pb-15">
           <img src="~/assets/cacao.PNG" alt="cacao" class="rounded-t-lg" />
