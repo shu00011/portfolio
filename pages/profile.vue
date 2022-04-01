@@ -8,7 +8,7 @@
       <img src="~/assets/sky.jpg" alt="profileimage" class="myimg absolute rounded-t-lg top-14 col-start-2 col-end-12 sm:col-start-3 sm:col-end-11 md:col-start-5 md:col-end-9" />
       <div class="mt-10 sm:mt-0 absolute sm:top-96 top-72 md:left-8 text-gray-700 col-start-2 col-end-11 md:col-start-5 md:col-end-9 sm:col-start-3 sm:col-end-11">
         <p class="mb-2">名前：shu00011/<a class="underline" href="https://oucrc.net/members/9svd4hgoy" target="_blank" rel="noopener noreferrer">小石こは</a></p>
-        <p class="mb-2">所属：岡山大学工学部情報系学科4年/<br>人間行動分析学研究室/<br><a href="https://oucrc.net/" target="_blank" rel="noopener noreferrer">岡山大学電子計算機研究会(OUCRC)</a></p>
+        <p class="mb-2">所属：岡山大学工学部情報系学科4年/<br>人間行動分析学研究室/<br><a href="https://oucrc.net/" target="_blank" rel="noopener noreferrer">岡山大学電子計算機研究会(OUCRC)OG</a></p>
         <p class="mb-2">趣味：写真</p>
         <p class="mb-2">技術：<br>HTML / CSS / C / Python / Flutter / Git /<br>JavaScript( Node / Vue / React / Next )</p>
         <a href="https://github.com/shu00011" target="_blank" rel="noopener noreferrer">

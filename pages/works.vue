@@ -12,7 +12,7 @@
         <div class="rounded-lg border-2 border-gray-600 mb-10 p-10 pb-15">
           <img src="~/assets/club.PNG" alt="2022clubfes" class="rounded-t-lg" />
           <p class="mb-2 mt-2">名前：2022年度岡山大学部活動フェスティバル</p>
-          <p class="mb-2">制作日：2021/04/01</p>
+          <p class="mb-2">制作日：2022/04/01</p>
           <p class="mb-2">開発：チーム開発（複数のパーツを担当）</p>
           <p class="mb-2">技術：Next.js</p>
           <p class="mb-2">説明：2022年度の岡山大学部活動フェスティバルを電子計算機研究会で制作．</p>
