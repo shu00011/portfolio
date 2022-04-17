@@ -14,6 +14,17 @@ export default {
       { rel: "stylesheet", href:"https://fonts.googleapis.com/css2?family=Kiwi+Maru+Shippori+Mincho&family=Geo&display=swap"}
     ]
   },
+  googleAnalytics: {
+    id: process.env.GOOGLE_ANALYTICS_ID,
+    autoTracking: {
+      screenview: true
+    }
+  },
+  publicRuntimeConfig: {
+    googleAnalytics: {
+      id: process.env.GOOGLE_ANALYTICS_ID,
+    }
+  },
   target:'static',
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
@@ -29,7 +40,8 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/google-analytics',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
