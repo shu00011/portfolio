@@ -10,6 +10,15 @@
     <div class="mt-32">
       <div class="text-gray-700">
         <div class="rounded-lg border-2 border-gray-600 mb-10 p-10 pb-15">
+          <img src="~/assets/streamlit.PNG" alt="2021oufes" class="rounded-t-lg" />
+          <p class="mb-2 mt-2">名前：rsbc_streamlit_prototype</p>
+          <p class="mb-2">制作日：2022/06/23</p>
+          <p class="mb-2">開発：個人</p>
+          <p class="mb-2">技術：Python</p>
+          <p class="mb-2">説明：RSBCアルゴリズムをWebアプリケーション上で利用できるようにしたもの．</p>
+          <a class="border-2 border-gray-600 bg-white text-gray-600 text-xs py-2 px-4 w-40 h-38 rounded-full tracking-widest hover:bg-gray-600 hover:text-white" href="https://github.com/shu00011/rsbc_streamlit_prototype" target="_blank" rel="noopener noreferrer">GitHubのリポジトリはこちら</a>
+        </div>
+        <div class="rounded-lg border-2 border-gray-600 mb-10 p-10 pb-15">
           <img src="~/assets/club.PNG" alt="2022clubfes" class="rounded-t-lg" />
           <p class="mb-2 mt-2">名前：2022年度岡山大学部活動フェスティバル</p>
           <p class="mb-2">制作日：2022/04/01</p>
